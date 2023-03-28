@@ -20,7 +20,7 @@ struct ContentView: View {
                 }.padding()
                 
                 NavigationLink(destination: BannerView(config: BannerConfig(imagename: "Lifeline",
-                                                                            damage: "200",
+                                                                            damage: "250",
                                                                             survival: "21min 10sec",
                                                                             kills: "6")))
                 {
