@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3866CAC829F722E900A04E55 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866CAC729F722E900A04E55 /* Variables.swift */; };
+		3866CACA29F727CE00A04E55 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866CAC929F727CE00A04E55 /* Functions.swift */; };
 		DFAD265A29CE5D860092A5F6 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD265929CE5D860092A5F6 /* BannerView.swift */; };
 		DFAEB80A299D9ABE00D1493E /* TrainingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAEB809299D9ABE00D1493E /* TrainingAppApp.swift */; };
 		DFAEB80C299D9ABE00D1493E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAEB80B299D9ABE00D1493E /* ContentView.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3866CAC729F722E900A04E55 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		3866CAC929F727CE00A04E55 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		DFAD265929CE5D860092A5F6 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		DFAEB806299D9ABE00D1493E /* TrainingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAEB809299D9ABE00D1493E /* TrainingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingAppApp.swift; sourceTree = "<group>"; };
@@ -34,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3866CAC629F722D600A04E55 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				3866CAC729F722E900A04E55 /* Variables.swift */,
+				3866CAC929F727CE00A04E55 /* Functions.swift */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
 		DFAEB7FD299D9ABE00D1493E = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +66,7 @@
 		DFAEB808299D9ABE00D1493E /* TrainingApp */ = {
 			isa = PBXGroup;
 			children = (
+				3866CAC629F722D600A04E55 /* Tutorials */,
 				DFAEB809299D9ABE00D1493E /* TrainingAppApp.swift */,
 				DFAD265929CE5D860092A5F6 /* BannerView.swift */,
 				DFAEB80B299D9ABE00D1493E /* ContentView.swift */,
@@ -143,6 +157,8 @@
 				DFAEB80C299D9ABE00D1493E /* ContentView.swift in Sources */,
 				DFAEB80A299D9ABE00D1493E /* TrainingAppApp.swift in Sources */,
 				DFAD265A29CE5D860092A5F6 /* BannerView.swift in Sources */,
+				3866CACA29F727CE00A04E55 /* Functions.swift in Sources */,
+				3866CAC829F722E900A04E55 /* Variables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
